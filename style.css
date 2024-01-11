@@ -1,0 +1,42 @@
+.wrap {
+    display: flex;
+    gap: 30px;
+    background-color: rgb(72, 166, 135);
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    border: transparent;
+    background-color: darkorchid;
+    color: white;
+    font-size: 20px;
+}
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkorchid;
+    border-radius: 10px;
+    padding: 0 20px 20px 20px;
+}
+
+.textWrap {
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
